@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_70sdp"
+    android:layout_height="@dimen/_70sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/black_1"
+    android:layout_gravity="center"
+    app:cardCornerRadius="@dimen/_20sdp"
+    >
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/_20sdp"
+        android:indeterminateTint="@color/white"
+        />
+
+</androidx.cardview.widget.CardView>

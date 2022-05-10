@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_80sdp"
+            android:text="@string/app_name"
+            android:gravity="center"
+            android:textSize="@dimen/_20sdp"
+            android:textColor="@color/black_1"
+            android:fontFamily="@font/nunitosans_extrabold"
+            />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputLayoutEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/email"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:background="@color/white"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputLayoutPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:layout_marginTop="20dp"
+        app:passwordToggleEnabled="true"
+        android:hint="@string/password"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:background="@color/white"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/txtForgotPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/forgot_password"
+        android:gravity="center"
+        android:textColor="@color/black_1"
+        android:textSize="@dimen/_16sdp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/nunitonans_semibold"
+        />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:text="@string/sign_in"
+        android:textSize="20sp"
+        android:fontFamily="@font/nunitonans_semibold"
+        android:textAllCaps="false"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/black_1"
+        app:cornerRadius="10dp"
+        />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnGmail"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:text="@string/continue_with_gmail"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:drawablePadding="40dp"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            app:cornerRadius="10dp"
+            android:elevation="10dp"
+            android:drawableEnd="@drawable/ic_gmail"
+            />
+    <TextView
+        android:id="@+id/txtCreateAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/create_an_account"
+        android:gravity="center"
+        android:textColor="@color/black_1"
+        android:textSize="@dimen/_16sdp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/nunitonans_semibold"
+        android:layout_marginBottom="50dp"
+        />
+
+
+    </LinearLayout>
+</ScrollView>

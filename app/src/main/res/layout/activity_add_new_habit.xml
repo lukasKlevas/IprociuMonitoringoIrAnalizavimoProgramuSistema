@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.AddNewHabitActivity">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:minHeight="@dimen/_40sdp"
+        >
+        <LinearLayout
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_5sdp"
+            android:layout_gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gelasio_medium"
+                android:text="Habit Name"
+                android:textColor="@color/black_1"
+                android:textSize="@dimen/_10sdp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter habit name"
+                android:textSize="@dimen/_10sdp" />
+
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editTextHabitName"
+            android:layout_width="0dp"
+            android:minWidth="@dimen/_100sdp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:hint="Type something here.."
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:minHeight="@dimen/_40sdp"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                android:minWidth="100dp"
+                android:padding="@dimen/_5sdp"
+                android:layout_gravity="center"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gelasio_medium"
+                    android:text="Habit Color"
+                    android:textColor="@color/black_1"
+                    android:textSize="@dimen/_10sdp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Optional"
+                    android:textSize="@dimen/_10sdp" />
+
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/colorChooser"
+                android:layout_width="@dimen/_80sdp"
+                android:layout_gravity="center"
+                android:hint="Type something here.."
+                android:layout_height="match_parent"
+                android:background="#FFAB00"
+
+                />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:minHeight="@dimen/_40sdp"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/_5sdp"
+                android:layout_gravity="center"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gelasio_medium"
+                    android:text="Goal reset frequency"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/black_1"
+                    android:textSize="@dimen/_10sdp" />
+
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/spinnerGoalFrequency"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:hint="Type something here.."
+                android:layout_height="wrap_content"
+                android:entries="@array/goal_rest_frequency"
+                />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:minHeight="@dimen/_40sdp"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/_5sdp"
+                android:layout_gravity="center"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gelasio_medium"
+                    android:text="Goal "
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/black_1"
+                    android:textSize="@dimen/_10sdp" />
+
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/spinnerGoal"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:hint="Type something here.."
+                android:layout_height="wrap_content"
+                android:entries="@array/goal"
+                />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:minHeight="@dimen/_40sdp"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/_5sdp"
+                android:layout_gravity="center"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gelasio_medium"
+                    android:text="Notifications"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/black_1"
+                    android:textSize="@dimen/_10sdp" />
+
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/spinnerNotification"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:hint="Type something here.."
+                android:layout_height="wrap_content"
+                android:entries="@array/goal_rest_frequency"
+                />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:minHeight="@dimen/_40sdp"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/_5sdp"
+                android:layout_gravity="center"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gelasio_medium"
+                    android:text="Reminders"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/black_1"
+                    android:textSize="@dimen/_10sdp" />
+
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/checkboxReminder"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:entries="@array/goal_rest_frequency"
+                />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnCreate"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:text="@string/create"
+        android:textSize="20sp"
+        android:fontFamily="@font/nunitonans_semibold"
+        android:textAllCaps="false"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/black_1"
+        app:cornerRadius="10dp"
+        />
+
+</LinearLayout>

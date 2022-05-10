@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/clearless/Downloads/Habit Tracker (2)/HabitTracker/app/src/main/res/layout/activity_add_new_habit.xml" value="0.2695035460992908" />
+        <entry key="..\:/Users/clearless/Downloads/Habit Tracker (2)/HabitTracker/app/src/main/res/layout/activity_habit_report.xml" value="0.33" />
+        <entry key="..\:/Users/clearless/Downloads/Habit Tracker (2)/HabitTracker/app/src/main/res/layout/activity_login.xml" value="0.4651268115942029" />
+        <entry key="..\:/Users/clearless/Downloads/Habit Tracker (2)/HabitTracker/app/src/main/res/layout/activity_main.xml" value="0.4651268115942029" />
+        <entry key="..\:/Users/clearless/Downloads/Habit Tracker (2)/HabitTracker/app/src/main/res/layout/activity_register.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/clearless/Downloads/Habit Tracker (2)/HabitTracker/app/src/main/res/layout/fragment_chart.xml" value="0.33697916666666666" />
+        <entry key="..\:/Users/clearless/Downloads/Habit Tracker (2)/HabitTracker/app/src/main/res/layout/fragment_habits.xml" value="0.2695035460992908" />
+        <entry key="..\:/Users/clearless/Downloads/Habit Tracker (2)/HabitTracker/app/src/main/res/layout/fragment_profile.xml" value="0.3307291666666667" />
+        <entry key="..\:/Users/clearless/Downloads/Habit Tracker (2)/HabitTracker/app/src/main/res/layout/item_habit.xml" value="0.2695035460992908" />
+        <entry key="..\:/Users/clearless/Downloads/Habit Tracker (2)/HabitTracker/app/src/main/res/layout/lyt_dialog_message.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/clearless/Downloads/Habit Tracker (2)/HabitTracker/app/src/main/res/layout/lyt_dialog_message_2.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/clearless/Downloads/Habit Tracker (2)/HabitTracker/app/src/main/res/layout/lyt_nav.xml" value="0.3328125" />
+        <entry key="..\:/Users/clearless/Downloads/Habit Tracker (2)/HabitTracker/app/src/main/res/layout/lyt_password.xml" value="0.3307291666666667" />
+        <entry key="..\:/Users/clearless/Downloads/Habit Tracker (2)/HabitTracker/app/src/main/res/layout/lyt_progress.xml" value="0.4651268115942029" />
+        <entry key="..\:/Users/clearless/Downloads/Habit Tracker (2)/HabitTrackerFinal/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.363" />
+        <entry key="..\:/Users/clearless/Downloads/Habit Tracker (2)/HabitTrackerFinal/app/src/main/res/drawable/ic_add.xml" value="0.363" />
+        <entry key="..\:/Users/clearless/Downloads/Habit Tracker (2)/HabitTrackerFinal/app/src/main/res/drawable/ic_delete.xml" value="0.363" />
+        <entry key="..\:/Users/clearless/Downloads/Habit Tracker (2)/HabitTrackerFinal/app/src/main/res/drawable/ic_dialog_back.xml" value="0.363" />
+        <entry key="..\:/Users/clearless/Downloads/Habit Tracker (2)/HabitTrackerFinal/app/src/main/res/drawable/ic_edit.xml" value="0.363" />
+        <entry key="..\:/Users/clearless/Downloads/Habit Tracker (2)/HabitTrackerFinal/app/src/main/res/drawable/ic_launcher_background.xml" value="0.363" />
+        <entry key="..\:/Users/clearless/Downloads/Habit Tracker (2)/HabitTrackerFinal/app/src/main/res/drawable/ic_lock.xml" value="0.363" />
+        <entry key="..\:/Users/clearless/Downloads/Habit Tracker (2)/HabitTrackerFinal/app/src/main/res/drawable/ic_login.xml" value="0.363" />
+        <entry key="..\:/Users/clearless/Downloads/Habit Tracker (2)/HabitTrackerFinal/app/src/main/res/drawable/ic_support.xml" value="0.363" />
+        <entry key="..\:/Users/clearless/Downloads/Habit Tracker (2)/HabitTrackerFinal/app/src/main/res/layout/activity_habit_report.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/clearless/Downloads/Habit Tracker (2)/HabitTrackerFinal/app/src/main/res/layout/activity_login.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/clearless/Downloads/Habit Tracker (2)/HabitTrackerFinal/app/src/main/res/layout/activity_main.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/clearless/Downloads/Habit Tracker (2)/HabitTrackerFinal/app/src/main/res/layout/item_habit.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/clearless/Downloads/Habit Tracker (2)/HabitTrackerFinal/app/src/main/res/layout/lyt_dialog_message_2.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/clearless/Downloads/Habit Tracker (2)/HabitTrackerFinal/app/src/main/res/layout/lyt_nav.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/clearless/Downloads/Habit Tracker (2)/HabitTrackerFinal/app/src/main/res/layout/lyt_progress.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/clearless/Downloads/Habit Tracker (2)/HabitTrackerFinal/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.363" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

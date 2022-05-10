@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/black_1"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/youracc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunitosans_extrabold"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingBottom="10sp"
+                android:text="Your Account Information"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_20sdp" />
+
+            <TextView
+                android:id="@+id/txtJoinedAt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/youracc"
+                android:fontFamily="@font/nunitosans_extrabold"
+                android:text="Joined At ------"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_13sdp" />
+
+            <TextView
+                android:id="@+id/txtEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtJoinedAt"
+                android:fontFamily="@font/nunitosans_extrabold"
+                android:text="Email ------"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_13sdp" />
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="306dp"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardChangePassword"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#ffffff"
+                app:cardElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/EditDetails"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:fontFamily="@font/nunitosans_bold"
+                        android:includeFontPadding="false"
+                        android:padding="5dp"
+                        android:text="Change Password"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/EditDescription"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/EditDetails"
+                        android:layout_marginTop="-10dp"
+
+                        android:includeFontPadding="false"
+                        android:padding="5dp"
+                        android:text="Click to change password"
+                        android:textSize="10sp" />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/ic_lock"
+                        app:tint="@color/black_1" />
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardDeleteAccount"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#ffffff"
+                app:cardElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/Settings"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/nunitosans_bold"
+                        android:includeFontPadding="false"
+                        android:padding="5dp"
+                        android:text="Delete Account"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/Payment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/Settings"
+                        android:layout_centerHorizontal="false"
+                        android:layout_marginTop="-8dp"
+
+                        android:includeFontPadding="false"
+                        android:padding="5dp"
+                        android:text="Click to delete account permanently"
+                        android:textSize="10sp" />
+
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/ic_delete"
+                        app:tint="@color/black_1" />
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardContactSupport"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#ffffff"
+                app:cardElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/HelpCentre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/nunitosans_bold"
+                        android:includeFontPadding="false"
+                        android:padding="5dp"
+                        android:text="Contact Support"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/HelpDescription"
+                        android:layout_width="186dp"
+                        android:layout_height="50dp"
+                        android:layout_below="@id/HelpCentre"
+                        android:layout_centerHorizontal="false"
+                        android:layout_marginTop="-8dp"
+
+                        android:includeFontPadding="false"
+                        android:padding="5dp"
+                        android:text="Having troubles? Feel free to pop us a question or two."
+                        android:textSize="10sp" />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/ic_support"
+                        app:tint="@color/black_1" />
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="97dp"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardLogout"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="#ffffff"
+                app:cardElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/Logout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:fontFamily="@font/nunitosans_bold"
+                        android:includeFontPadding="false"
+                        android:padding="5dp"
+                        android:text="Log Out"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/ic_login"
+                        app:tint="@color/black_1" />
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

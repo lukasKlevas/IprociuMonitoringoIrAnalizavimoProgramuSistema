@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.HabitReportActivity">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:fontFamily="@font/nunitosans_bold"
+        android:text="This week"
+        android:textColor="@color/black_1"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/nunitosans_bold"
+            android:text="Monday"
+            android:textColor="@color/black_1"
+            android:textSize="@dimen/_15sdp" />
+
+        <ProgressBar
+            android:id="@+id/progressMonday"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:progressDrawable="@drawable/green_progress_drawable" />
+
+        <TextView
+            android:id="@+id/txtCountMonday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10sp"
+            android:fontFamily="@font/nunitonans_semibold"
+            android:textColor="@color/black_1"
+            android:textSize="@dimen/_13sdp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/nunitosans_bold"
+            android:text="Tuesday"
+            android:textColor="@color/black_1"
+            android:textSize="@dimen/_15sdp" />
+
+        <ProgressBar
+            android:id="@+id/progressTuesday"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:max="100"
+            android:progressDrawable="@drawable/green_progress_drawable" />
+
+        <TextView
+            android:id="@+id/txtCountTuesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10sp"
+            android:fontFamily="@font/nunitonans_semibold"
+            android:textColor="@color/black_1"
+            android:textSize="@dimen/_13sdp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/nunitosans_bold"
+            android:text="Wednesday"
+            android:textColor="@color/black_1"
+            android:textSize="@dimen/_15sdp" />
+
+        <ProgressBar
+            android:id="@+id/progressWednesday"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:progressDrawable="@drawable/green_progress_drawable" />
+
+        <TextView
+            android:id="@+id/txtCountWednesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10sp"
+            android:fontFamily="@font/nunitonans_semibold"
+            android:textColor="@color/black_1"
+            android:textSize="@dimen/_13sdp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/nunitosans_bold"
+            android:text="Thursday"
+            android:textColor="@color/black_1"
+            android:textSize="@dimen/_15sdp" />
+
+        <ProgressBar
+            android:id="@+id/progressThursday"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:progressDrawable="@drawable/green_progress_drawable" />
+
+        <TextView
+            android:id="@+id/txtCountThursday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10sp"
+            android:fontFamily="@font/nunitonans_semibold"
+            android:textColor="@color/black_1"
+            android:textSize="@dimen/_13sdp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/nunitosans_bold"
+            android:text="Friday"
+            android:textColor="@color/black_1"
+            android:textSize="@dimen/_15sdp" />
+
+        <ProgressBar
+            android:id="@+id/progressFriday"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:progressDrawable="@drawable/green_progress_drawable" />
+
+        <TextView
+            android:id="@+id/txtCountFriday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10sp"
+            android:fontFamily="@font/nunitonans_semibold"
+            android:textColor="@color/black_1"
+            android:textSize="@dimen/_13sdp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/nunitosans_bold"
+            android:text="Saturday"
+            android:textColor="@color/black_1"
+            android:textSize="@dimen/_15sdp" />
+
+        <ProgressBar
+            android:id="@+id/progressSaturday"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:progressDrawable="@drawable/green_progress_drawable" />
+
+        <TextView
+            android:id="@+id/txtCountSaturday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10sp"
+            android:fontFamily="@font/nunitonans_semibold"
+            android:textColor="@color/black_1"
+            android:textSize="@dimen/_13sdp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/nunitosans_bold"
+            android:text="Sunday"
+            android:textColor="@color/black_1"
+            android:textSize="@dimen/_15sdp" />
+
+        <ProgressBar
+            android:id="@+id/progressSunday"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:progressDrawable="@drawable/green_progress_drawable" />
+
+        <TextView
+            android:id="@+id/txtCountSunday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10sp"
+            android:fontFamily="@font/nunitonans_semibold"
+            android:textColor="@color/black_1"
+            android:textSize="@dimen/_13sdp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:fontFamily="@font/nunitosans_bold"
+        android:text="This week"
+        android:textColor="@color/black_1"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtTotalCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:fontFamily="@font/nunitosans_bold"
+        android:text=""
+        android:textColor="@color/black_1"
+        android:textSize="@dimen/_20sdp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabminus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            app:backgroundTint="@color/black_1"
+            app:fabSize="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/ic_remove"
+            app:tint="@color/white" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabadd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginStart="@dimen/_50sdp"
+            app:backgroundTint="@color/black_1"
+            app:fabSize="normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/ic_add"
+            app:tint="@color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>

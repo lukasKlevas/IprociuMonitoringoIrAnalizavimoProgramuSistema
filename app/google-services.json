@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "234186406559",
+    "project_id": "iprociups",
+    "storage_bucket": "iprociups.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234186406559:android:6a663daf9b18c1a4e780aa",
+        "android_client_info": {
+          "package_name": "com.habit.tracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234186406559-jq1ue7io80bkcrm1hfrtelomqb951d7h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATX-tYj3HQhW001gI9S0Xwid8SN_FJr_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234186406559-jq1ue7io80bkcrm1hfrtelomqb951d7h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
