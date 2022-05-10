@@ -3,6 +3,8 @@
 - Darbo vadovė daktarė Urtė Radvilaitė
 
 Visų failų lokacija - "Master" branch
+![image](https://user-images.githubusercontent.com/104839179/167714270-fac21452-c281-46cc-86af-af8a9a72eb8b.png)
+
 
 **Norint įjungti programą ant savo įrenginio su "Android" OS :**
 1. Atidarykite folderį "! Sistemos ruošinys".
